@@ -1,0 +1,68 @@
+body {
+  font-size: 36px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+main {
+  width: 55%;
+  margin: auto;
+}
+
+.row {
+  width: 100%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.left {
+  width: 50%;
+  float: left;
+  height: 270px;
+}
+
+.right {
+  width: 50%;
+  float: right;
+  height: 270px;
+}
+
+p {
+  margin:0;
+  padding:30px;
+}
+
+
+
+/* Fonts */
+.sans-serif {
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Colors */
+.serif {
+  font-family: 'Quattrocento', serif;
+}
+
+.tomato {
+  background-color: tomato;
+}
+
+.cyan {
+  background-color: DarkCyan;
+}
+
+.aqua {
+  background-color: aquamarine;
+}
+
+.blue {
+  background-color: #4d4dff;
+}
